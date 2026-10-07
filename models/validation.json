@@ -1,0 +1,565 @@
+{
+  "source": "D:\\CODEX\\8栋小区.blend",
+  "blenderVersion": "5.2.2 LTS",
+  "triangles": 477060,
+  "glbBytes": 3143464,
+  "rootIds": [
+    "building-01",
+    "building-02",
+    "building-03",
+    "building-04",
+    "building-05",
+    "building-06",
+    "building-07",
+    "building-08"
+  ],
+  "boundsBlenderZUp": {
+    "environment": [
+      [
+        -42.0,
+        -42.0,
+        -2.5
+      ],
+      [
+        42.0,
+        42.0,
+        8.529999732971191
+      ]
+    ],
+    "building-01": [
+      [
+        -34.75589370727539,
+        9.969999313354492,
+        0.1549999713897705
+      ],
+      [
+        -23.244108200073242,
+        20.989667892456055,
+        11.330821990966797
+      ]
+    ],
+    "building-02": [
+      [
+        -19.755891799926758,
+        9.969999313354492,
+        0.1549999713897705
+      ],
+      [
+        -8.244108200073242,
+        20.989667892456055,
+        11.330821990966797
+      ]
+    ],
+    "building-03": [
+      [
+        -4.755892276763916,
+        9.969999313354492,
+        0.1549999713897705
+      ],
+      [
+        6.755892276763916,
+        20.989667892456055,
+        11.330821990966797
+      ]
+    ],
+    "building-04": [
+      [
+        10.244108200073242,
+        9.969999313354492,
+        0.1549999713897705
+      ],
+      [
+        21.755891799926758,
+        20.989667892456055,
+        11.330821990966797
+      ]
+    ],
+    "building-05": [
+      [
+        -34.75589370727539,
+        -16.989667892456055,
+        0.1549999713897705
+      ],
+      [
+        -23.244108200073242,
+        -5.96999979019165,
+        11.330821990966797
+      ]
+    ],
+    "building-06": [
+      [
+        -19.755891799926758,
+        -16.989667892456055,
+        0.1549999713897705
+      ],
+      [
+        -8.244107246398926,
+        -5.96999979019165,
+        11.330821990966797
+      ]
+    ],
+    "building-07": [
+      [
+        -4.755892753601074,
+        -16.989667892456055,
+        0.1549999713897705
+      ],
+      [
+        6.755892753601074,
+        -5.96999979019165,
+        11.330821990966797
+      ]
+    ],
+    "building-08": [
+      [
+        10.244107246398926,
+        -16.989667892456055,
+        0.1549999713897705
+      ],
+      [
+        21.755891799926758,
+        -5.96999979019165,
+        11.330821990966797
+      ]
+    ]
+  },
+  "bounds": {
+    "min": [
+      -42.0,
+      -2.5,
+      -42.0
+    ],
+    "max": [
+      42.0,
+      11.330821990966797,
+      42.0
+    ]
+  },
+  "meshCount": 19,
+  "materialCount": 3,
+  "missingDependencies": [],
+  "linkedLibraryCount": 58,
+  "externalResources": false,
+  "scaleNote": "Source uses metric units; physical dimensions are not survey-verified.",
+  "materialConversion": [
+    "Original diffuse palette retained as linear vertex colors; original EEVEE toon ramps replaced by glTF PBR.",
+    "Original roughness/normal image detail and bevel/ink-shell modifiers omitted in web derivative.",
+    "Glass uses alpha 0.64; water remains opaque turquoise to avoid transparency ordering defects.",
+    "Plant leaves consolidated into convex canopy clusters then simplified; source linked .blend retains original plant detail.",
+    "Minute meadow blades and submerged pool mosaic geometry omitted; continuous grass and pool shell retained.",
+    "Web structure separated from gardens for precise building selection; original linked hierarchy retained in .blend."
+  ],
+  "assetStatistics": [
+    {
+      "collection": "COL_50_ReferenceBase",
+      "instances": 1,
+      "originalBaseTriangles": 174,
+      "webTriangles": 174,
+      "instancedTriangles": 174
+    },
+    {
+      "collection": "COL_51_VillaFloor",
+      "instances": 34,
+      "originalBaseTriangles": 552,
+      "webTriangles": 260,
+      "instancedTriangles": 8840
+    },
+    {
+      "collection": "COL_56_VillaRoof",
+      "instances": 9,
+      "originalBaseTriangles": 10114,
+      "webTriangles": 2798,
+      "instancedTriangles": 25182
+    },
+    {
+      "collection": "COL_52_VillaPier",
+      "instances": 192,
+      "originalBaseTriangles": 109,
+      "webTriangles": 109,
+      "instancedTriangles": 20928
+    },
+    {
+      "collection": "COL_53_VillaSpandrel",
+      "instances": 144,
+      "originalBaseTriangles": 120,
+      "webTriangles": 120,
+      "instancedTriangles": 17280
+    },
+    {
+      "collection": "COL_54_VillaGlazing",
+      "instances": 136,
+      "originalBaseTriangles": 724,
+      "webTriangles": 336,
+      "instancedTriangles": 45696
+    },
+    {
+      "collection": "COL_12_Curtain",
+      "instances": 136,
+      "originalBaseTriangles": 2012,
+      "webTriangles": 36,
+      "instancedTriangles": 4896
+    },
+    {
+      "collection": "COL_57_VillaEntry",
+      "instances": 8,
+      "originalBaseTriangles": 692,
+      "webTriangles": 636,
+      "instancedTriangles": 5088
+    },
+    {
+      "collection": "COL_59_VillaCanopy",
+      "instances": 8,
+      "originalBaseTriangles": 484,
+      "webTriangles": 484,
+      "instancedTriangles": 3872
+    },
+    {
+      "collection": "COL_58_VillaSideWall",
+      "instances": 144,
+      "originalBaseTriangles": 240,
+      "webTriangles": 224,
+      "instancedTriangles": 32256
+    },
+    {
+      "collection": "COL_10_AirConditioner",
+      "instances": 48,
+      "originalBaseTriangles": 652,
+      "webTriangles": 120,
+      "instancedTriangles": 5760
+    },
+    {
+      "collection": "COL_11_InteriorPartition",
+      "instances": 48,
+      "originalBaseTriangles": 48,
+      "webTriangles": 48,
+      "instancedTriangles": 2304
+    },
+    {
+      "collection": "COL_55_VillaBalcony",
+      "instances": 64,
+      "originalBaseTriangles": 1424,
+      "webTriangles": 408,
+      "instancedTriangles": 26112
+    },
+    {
+      "collection": "COL_13_BalconyPlanter",
+      "instances": 96,
+      "originalBaseTriangles": 1740,
+      "webTriangles": 180,
+      "instancedTriangles": 17280
+    },
+    {
+      "collection": "COL_14_DryingRack",
+      "instances": 8,
+      "originalBaseTriangles": 650,
+      "webTriangles": 600,
+      "instancedTriangles": 4800
+    },
+    {
+      "collection": "COL_60_PrivatePool",
+      "instances": 8,
+      "originalBaseTriangles": 7276,
+      "webTriangles": 3187,
+      "instancedTriangles": 25496
+    },
+    {
+      "collection": "COL_69_LightPaving",
+      "instances": 307,
+      "originalBaseTriangles": 140,
+      "webTriangles": 140,
+      "instancedTriangles": 42980
+    },
+    {
+      "collection": "COL_70_ParkMeadow",
+      "instances": 722,
+      "originalBaseTriangles": 24,
+      "webTriangles": 24,
+      "instancedTriangles": 17328
+    },
+    {
+      "collection": "COL_63_Lounger",
+      "instances": 32,
+      "originalBaseTriangles": 688,
+      "webTriangles": 250,
+      "instancedTriangles": 8000
+    },
+    {
+      "collection": "COL_61_GardenWall",
+      "instances": 192,
+      "originalBaseTriangles": 1214,
+      "webTriangles": 180,
+      "instancedTriangles": 34560
+    },
+    {
+      "collection": "COL_64_Hedge",
+      "instances": 80,
+      "originalBaseTriangles": 6832,
+      "webTriangles": 220,
+      "instancedTriangles": 17600
+    },
+    {
+      "collection": "COL_62_GardenGate",
+      "instances": 16,
+      "originalBaseTriangles": 1540,
+      "webTriangles": 600,
+      "instancedTriangles": 9600
+    },
+    {
+      "collection": "COL_15_Mailboxes",
+      "instances": 8,
+      "originalBaseTriangles": 300,
+      "webTriangles": 300,
+      "instancedTriangles": 2400
+    },
+    {
+      "collection": "COL_16_Noticeboard",
+      "instances": 8,
+      "originalBaseTriangles": 72,
+      "webTriangles": 72,
+      "instancedTriangles": 576
+    },
+    {
+      "collection": "COL_28_GardenLantern",
+      "instances": 23,
+      "originalBaseTriangles": 96,
+      "webTriangles": 96,
+      "instancedTriangles": 2208
+    },
+    {
+      "collection": "COL_17_CanopyTree",
+      "instances": 82,
+      "originalBaseTriangles": 8502,
+      "webTriangles": 700,
+      "instancedTriangles": 57400
+    },
+    {
+      "collection": "COL_18_Shrub",
+      "instances": 212,
+      "originalBaseTriangles": 3140,
+      "webTriangles": 90,
+      "instancedTriangles": 19080
+    },
+    {
+      "collection": "COL_01_Road",
+      "instances": 29,
+      "originalBaseTriangles": 48,
+      "webTriangles": 48,
+      "instancedTriangles": 1392
+    },
+    {
+      "collection": "COL_68_GaragePortal",
+      "instances": 2,
+      "originalBaseTriangles": 1104,
+      "webTriangles": 600,
+      "instancedTriangles": 1200
+    },
+    {
+      "collection": "COL_67_ClubhouseWall",
+      "instances": 4,
+      "originalBaseTriangles": 3248,
+      "webTriangles": 683,
+      "instancedTriangles": 2732
+    },
+    {
+      "collection": "COL_24_Bench",
+      "instances": 5,
+      "originalBaseTriangles": 1068,
+      "webTriangles": 600,
+      "instancedTriangles": 3000
+    },
+    {
+      "collection": "COL_65_OrganicPond",
+      "instances": 2,
+      "originalBaseTriangles": 7980,
+      "webTriangles": 792,
+      "instancedTriangles": 1584
+    },
+    {
+      "collection": "COL_66_CurvedParkPath",
+      "instances": 4,
+      "originalBaseTriangles": 3940,
+      "webTriangles": 600,
+      "instancedTriangles": 2400
+    },
+    {
+      "collection": "COL_23_Pergola",
+      "instances": 1,
+      "originalBaseTriangles": 852,
+      "webTriangles": 600,
+      "instancedTriangles": 600
+    },
+    {
+      "collection": "COL_26_Rockery",
+      "instances": 3,
+      "originalBaseTriangles": 1920,
+      "webTriangles": 600,
+      "instancedTriangles": 1800
+    },
+    {
+      "collection": "COL_47_PlaySurface",
+      "instances": 1,
+      "originalBaseTriangles": 1772,
+      "webTriangles": 600,
+      "instancedTriangles": 600
+    },
+    {
+      "collection": "COL_35_PlaySlide",
+      "instances": 1,
+      "originalBaseTriangles": 1886,
+      "webTriangles": 600,
+      "instancedTriangles": 600
+    },
+    {
+      "collection": "COL_36_Swing",
+      "instances": 1,
+      "originalBaseTriangles": 668,
+      "webTriangles": 600,
+      "instancedTriangles": 600
+    },
+    {
+      "collection": "COL_37_FitnessTrainer",
+      "instances": 1,
+      "originalBaseTriangles": 876,
+      "webTriangles": 600,
+      "instancedTriangles": 600
+    },
+    {
+      "collection": "COL_49_ShoulderWheel",
+      "instances": 1,
+      "originalBaseTriangles": 1300,
+      "webTriangles": 600,
+      "instancedTriangles": 600
+    },
+    {
+      "collection": "COL_38_WasteStation",
+      "instances": 1,
+      "originalBaseTriangles": 1156,
+      "webTriangles": 600,
+      "instancedTriangles": 600
+    },
+    {
+      "collection": "COL_39_ParcelLocker",
+      "instances": 1,
+      "originalBaseTriangles": 528,
+      "webTriangles": 528,
+      "instancedTriangles": 528
+    },
+    {
+      "collection": "COL_40_BicycleRack",
+      "instances": 1,
+      "originalBaseTriangles": 304,
+      "webTriangles": 304,
+      "instancedTriangles": 304
+    },
+    {
+      "collection": "COL_41_Bicycle",
+      "instances": 5,
+      "originalBaseTriangles": 2948,
+      "webTriangles": 600,
+      "instancedTriangles": 3000
+    },
+    {
+      "collection": "COL_42_ElectricScooter",
+      "instances": 3,
+      "originalBaseTriangles": 4516,
+      "webTriangles": 920,
+      "instancedTriangles": 2760
+    },
+    {
+      "collection": "COL_33_ParkingBay",
+      "instances": 4,
+      "originalBaseTriangles": 72,
+      "webTriangles": 72,
+      "instancedTriangles": 288
+    },
+    {
+      "collection": "COL_20_MainGate",
+      "instances": 1,
+      "originalBaseTriangles": 412,
+      "webTriangles": 412,
+      "instancedTriangles": 412
+    },
+    {
+      "collection": "COL_21_Guardhouse",
+      "instances": 1,
+      "originalBaseTriangles": 216,
+      "webTriangles": 216,
+      "instancedTriangles": 216
+    },
+    {
+      "collection": "COL_31_WayfindingPost",
+      "instances": 1,
+      "originalBaseTriangles": 98,
+      "webTriangles": 98,
+      "instancedTriangles": 98
+    },
+    {
+      "collection": "COL_27_StreetLamp",
+      "instances": 10,
+      "originalBaseTriangles": 252,
+      "webTriangles": 252,
+      "instancedTriangles": 2520
+    },
+    {
+      "collection": "COL_32_PedestrianBarrier",
+      "instances": 4,
+      "originalBaseTriangles": 968,
+      "webTriangles": 600,
+      "instancedTriangles": 2400
+    },
+    {
+      "collection": "COL_22_PerimeterWall",
+      "instances": 75,
+      "originalBaseTriangles": 324,
+      "webTriangles": 324,
+      "instancedTriangles": 24300
+    },
+    {
+      "collection": "COL_45_Curb",
+      "instances": 62,
+      "originalBaseTriangles": 49,
+      "webTriangles": 49,
+      "instancedTriangles": 3038
+    },
+    {
+      "collection": "COL_34_Drain",
+      "instances": 10,
+      "originalBaseTriangles": 396,
+      "webTriangles": 396,
+      "instancedTriangles": 3960
+    },
+    {
+      "collection": "COL_29_UtilityPole",
+      "instances": 2,
+      "originalBaseTriangles": 844,
+      "webTriangles": 600,
+      "instancedTriangles": 1200
+    },
+    {
+      "collection": "COL_30_PoleCable",
+      "instances": 1,
+      "originalBaseTriangles": 0,
+      "webTriangles": 0,
+      "instancedTriangles": 0
+    },
+    {
+      "collection": "COL_43_FallenLeaf",
+      "instances": 34,
+      "originalBaseTriangles": 6,
+      "webTriangles": 6,
+      "instancedTriangles": 204
+    },
+    {
+      "collection": "COL_44_DriftingLeaf",
+      "instances": 4,
+      "originalBaseTriangles": 4,
+      "webTriangles": 4,
+      "instancedTriangles": 16
+    }
+  ],
+  "compression": "KHR_draco_mesh_compression; position 16 bits, normal 10 bits, color 8 bits; local offline decoder",
+  "decoderBytes": 763341,
+  "originalExpandedBaseTriangles": 12543766,
+  "missingImages": [],
+  "sourcePreserved": true
+}

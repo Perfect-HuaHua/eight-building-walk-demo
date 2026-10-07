@@ -1,0 +1,190 @@
+{
+  "name": "八栋小区",
+  "coordinateSystem": "local-meter-demo",
+  "buildings": [
+    {
+      "id": "building-01",
+      "name": "1号楼",
+      "category": "住宅",
+      "floors": null,
+      "area": null,
+      "summary": "演示面板按三户人家配置模拟指标，建筑模型保持原样；非真实物业档案。",
+      "demo": {
+        "households": 3,
+        "occupiedHouseholds": 3,
+        "parkingSpaces": 3,
+        "occupiedParkingSpaces": 3,
+        "electricityKwh": [
+          24,
+          26,
+          23,
+          27,
+          25,
+          29,
+          26
+        ]
+      }
+    },
+    {
+      "id": "building-02",
+      "name": "2号楼",
+      "category": "住宅",
+      "floors": null,
+      "area": null,
+      "summary": "演示面板按三户人家配置模拟指标，建筑模型保持原样；非真实物业档案。",
+      "demo": {
+        "households": 3,
+        "occupiedHouseholds": 2,
+        "parkingSpaces": 3,
+        "occupiedParkingSpaces": 2,
+        "electricityKwh": [
+          18,
+          20,
+          19,
+          21,
+          20,
+          23,
+          21
+        ]
+      }
+    },
+    {
+      "id": "building-03",
+      "name": "3号楼",
+      "category": "住宅",
+      "floors": null,
+      "area": null,
+      "summary": "演示面板按三户人家配置模拟指标，建筑模型保持原样；非真实物业档案。",
+      "demo": {
+        "households": 3,
+        "occupiedHouseholds": 3,
+        "parkingSpaces": 3,
+        "occupiedParkingSpaces": 2,
+        "electricityKwh": [
+          25,
+          27,
+          24,
+          28,
+          26,
+          30,
+          27
+        ]
+      }
+    },
+    {
+      "id": "building-04",
+      "name": "4号楼",
+      "category": "住宅",
+      "floors": null,
+      "area": null,
+      "summary": "演示面板按三户人家配置模拟指标，建筑模型保持原样；非真实物业档案。",
+      "demo": {
+        "households": 3,
+        "occupiedHouseholds": 2,
+        "parkingSpaces": 3,
+        "occupiedParkingSpaces": 1,
+        "electricityKwh": [
+          17,
+          19,
+          18,
+          20,
+          19,
+          22,
+          20
+        ]
+      }
+    },
+    {
+      "id": "building-05",
+      "name": "5号楼",
+      "category": "住宅",
+      "floors": null,
+      "area": null,
+      "summary": "演示面板按三户人家配置模拟指标，建筑模型保持原样；非真实物业档案。",
+      "demo": {
+        "households": 3,
+        "occupiedHouseholds": 3,
+        "parkingSpaces": 3,
+        "occupiedParkingSpaces": 3,
+        "electricityKwh": [
+          26,
+          28,
+          25,
+          29,
+          27,
+          31,
+          28
+        ]
+      }
+    },
+    {
+      "id": "building-06",
+      "name": "6号楼",
+      "category": "住宅",
+      "floors": null,
+      "area": null,
+      "summary": "演示面板按三户人家配置模拟指标，建筑模型保持原样；非真实物业档案。",
+      "demo": {
+        "households": 3,
+        "occupiedHouseholds": 2,
+        "parkingSpaces": 3,
+        "occupiedParkingSpaces": 2,
+        "electricityKwh": [
+          20,
+          22,
+          19,
+          23,
+          21,
+          25,
+          22
+        ]
+      }
+    },
+    {
+      "id": "building-07",
+      "name": "7号楼",
+      "category": "住宅",
+      "floors": null,
+      "area": null,
+      "summary": "演示面板按三户人家配置模拟指标，建筑模型保持原样；非真实物业档案。",
+      "demo": {
+        "households": 3,
+        "occupiedHouseholds": 3,
+        "parkingSpaces": 3,
+        "occupiedParkingSpaces": 2,
+        "electricityKwh": [
+          23,
+          25,
+          22,
+          26,
+          24,
+          28,
+          25
+        ]
+      }
+    },
+    {
+      "id": "building-08",
+      "name": "8号楼",
+      "category": "住宅",
+      "floors": null,
+      "area": null,
+      "summary": "演示面板按三户人家配置模拟指标，建筑模型保持原样；非真实物业档案。",
+      "demo": {
+        "households": 3,
+        "occupiedHouseholds": 2,
+        "parkingSpaces": 3,
+        "occupiedParkingSpaces": 2,
+        "electricityKwh": [
+          19,
+          21,
+          18,
+          22,
+          20,
+          24,
+          21
+        ]
+      }
+    }
+  ]
+}
